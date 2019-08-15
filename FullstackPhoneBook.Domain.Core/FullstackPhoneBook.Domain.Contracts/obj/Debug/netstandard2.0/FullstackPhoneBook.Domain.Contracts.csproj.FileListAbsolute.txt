@@ -1,0 +1,12 @@
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.deps.json
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.pdb
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.pdb
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.csprojAssemblyReference.cache
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.csproj.CoreCompileInputs.cache
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.AssemblyInfoInputs.cache
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.AssemblyInfo.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.csproj.CopyComplete
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Contracts/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Contracts.pdb

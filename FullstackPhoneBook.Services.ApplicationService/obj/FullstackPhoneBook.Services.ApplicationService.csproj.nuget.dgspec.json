@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/FullstackPhoneBook.Services.ApplicationService.csproj": {}
+  },
+  "projects": {
+    "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Core.csproj",
+        "projectName": "FullstackPhoneBook.Domain.Core",
+        "projectPath": "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Core.csproj",
+        "packagesPath": "/Users/mohammad141/.nuget/packages/",
+        "outputPath": "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mohammad141/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/FullstackPhoneBook.Services.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/FullstackPhoneBook.Services.ApplicationService.csproj",
+        "projectName": "FullstackPhoneBook.Services.ApplicationService",
+        "projectPath": "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/FullstackPhoneBook.Services.ApplicationService.csproj",
+        "packagesPath": "/Users/mohammad141/.nuget/packages/",
+        "outputPath": "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mohammad141/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Core.csproj": {
+                "projectPath": "/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/FullstackPhoneBook.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

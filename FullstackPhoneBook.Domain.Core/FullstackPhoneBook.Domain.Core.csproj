@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FullstackPhoneBook.Core.Contracts\.DS_Store" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Core.Contracts.csproj.nuget.g.props" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Domain.Contracts.csproj.nuget.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Domain.Contracts.csproj.nuget.g.props" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Domain.Contracts.csproj.nuget.dgspec.json" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\project.assets.json" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Domain.Contracts.csproj.nuget.g.targets" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Core.Contracts.csproj.nuget.dgspec.json" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Core.Contracts.csproj.nuget.g.targets" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\FullstackPhoneBook.Core.Contracts.csproj.nuget.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.csproj.CopyComplete" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.assets.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.csprojAssemblyReference.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.csproj.CoreCompileInputs.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.csproj.FileListAbsolute.txt" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.pdb" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.csprojAssemblyReference.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.AssemblyInfoInputs.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.assets.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.dll" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\bin\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.pdb" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\bin\Debug\netstandard2.0\FullstackPhoneBook.Domain.Core.dll" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\bin\Debug\netstandard2.0\FullstackPhoneBook.Domain.Core.pdb" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\bin\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.dll" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.csproj.CoreCompileInputs.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.AssemblyInfoInputs.cache" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.dll" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.pdb" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.csproj.CopyComplete" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\bin\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.deps.json" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\bin\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.dll" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\bin\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.pdb" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.csproj.FileListAbsolute.txt" />
+    <None Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.csprojAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="FullstackPhoneBook.Core.Contracts\Class1.cs" />
+    <Compile Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Core.Contracts.AssemblyInfo.cs" />
+    <Compile Remove="FullstackPhoneBook.Core.Contracts\Common\IBaseRepository.cs" />
+    <Compile Remove="FullstackPhoneBook.Core.Contracts\Common\IApplicationService.cs" />
+    <Compile Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>

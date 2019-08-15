@@ -1,0 +1,12 @@
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/bin/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.deps.json
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/bin/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/bin/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.pdb
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.pdb
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.csprojAssemblyReference.cache
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.csproj.CoreCompileInputs.cache
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.AssemblyInfoInputs.cache
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.AssemblyInfo.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.csproj.CopyComplete
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.pdb
