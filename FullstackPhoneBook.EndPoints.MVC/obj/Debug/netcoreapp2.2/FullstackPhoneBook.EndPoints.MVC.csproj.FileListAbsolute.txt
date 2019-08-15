@@ -24,12 +24,12 @@
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Home/About.g.cshtml.cs
-/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Home/_Footer.g.cshtml.cs
-/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Home/_Sidebar.g.cshtml.cs
-/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Home/_Topbar.g.cshtml.cs
-/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Home/_LogoutModal.g.cshtml.cs
-/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Home/_ScrolltoTop.g.cshtml.cs
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/bin/Debug/netcoreapp2.2/FullstackPhoneBook.Domain.Core.dll
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/bin/Debug/netcoreapp2.2/FullstackPhoneBook.Infrastructures.DataAccess.dll
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/bin/Debug/netcoreapp2.2/FullstackPhoneBook.Domain.Core.pdb
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/bin/Debug/netcoreapp2.2/FullstackPhoneBook.Infrastructures.DataAccess.pdb
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/People/Add.g.cshtml.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Footer.g.cshtml.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LogoutModal.g.cshtml.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Topbar.g.cshtml.cs

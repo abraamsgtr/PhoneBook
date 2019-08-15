@@ -17,12 +17,12 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
             this.personRepository = personRepository;
         }
         // GET: /<controller>/
-        public IActionResult Index()        {            personRepository.Add(new Person
-            {
-                FirstName = "Mohammad",
-                LastName = "Aflaki",
-                Email = "am823617@gmail.com",
-                Address = "Orumia",
-                Image = "my Image2",
-            });            return View();        }        public IActionResult About()        {            return View();        }    }
+        public IActionResult Index()        {            //personRepository.Add(new Person
+            //{
+            //    FirstName = "Mohammad",
+            //    LastName = "Aflaki",
+            //    Email = "am823617@gmail.com",
+            //    Address = "Orumia",
+            //    Image = "my Image2",
+            //});            return View();        }        public IActionResult About()        {            return View();        }    }
 }

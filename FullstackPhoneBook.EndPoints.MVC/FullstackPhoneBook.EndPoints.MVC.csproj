@@ -24,6 +24,8 @@
     <Folder Include="Views\Home\" />
     <Folder Include="wwwroot\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="Views\People\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\vendor\fontawesome-free\js\brands.js" />
@@ -343,6 +345,8 @@
     <Content Remove="wwwroot\vendor\fontawesome-free\svgs\solid\file-image.svg" />
     <Content Remove="wwwroot\vendor\fontawesome-free\svgs\solid\wallet.svg" />
     <Content Remove="wwwroot\vendor\fontawesome-free\svgs\solid\bell.svg" />
+    <Content Remove="Views\Shared\_ScrolltoTop.cshtml" />
+    <Content Remove="Views\Shared\_Sidebar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FullstackPhoneBook.Domain.Core\FullstackPhoneBook.Core.Contracts\FullstackPhoneBook.Core.Contracts.csproj" />
