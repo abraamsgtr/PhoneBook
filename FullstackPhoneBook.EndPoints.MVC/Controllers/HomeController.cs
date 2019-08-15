@@ -23,6 +23,6 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
                 LastName = "Aflaki",
                 Email = "am823617@gmail.com",
                 Address = "Orumia",
-                Image = "my Image3",
+                Image = "my Image2",
             });            return View();        }        public IActionResult About()        {            return View();        }    }
 }
