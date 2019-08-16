@@ -41,27 +41,29 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(AddNewPersonGetViewModel person)
+        public IActionResult Add(AddNewPersonGetViewModel model)
         {
             if (ModelState.IsValid)
             {
                 Person person1 = new Person
                 {
-                    FirstName = person.FirstName,
-                    LastName = person.LastName,
-                    Email = person.Email,
-                    Address = person.Address,
-                    Tags = new List<PersonTag>(person.SelectedTag.Select(c=> new PersonTag
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    Email = model.Email,
+                    Address = model.Address,
+                    Tags = new List<PersonTag>(model.SelectedTag.Select(c => new PersonTag
                     {
                         TagId = c
                     }).ToList())
                 };
 
-                if (person?.Image?.Length > 0)
+                //Console.WriteLine($"Tags = {person1.Tags[0].TagId}");
+
+                if (model?.Image?.Length > 0)
                 {
                     using (var ms = new MemoryStream())
                     {
-                        person.Image.CopyTo(ms);
+                        model.Image.CopyTo(ms);
                         var fileBytes = ms.ToArray();
                         person1.Image = Convert.ToBase64String(fileBytes);
                     }
@@ -70,7 +72,17 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
                 personRepository.Add(person1);
                 return RedirectToAction("Index");
             }
-            return View();
+
+            AddNewPersonDisplayViewModel modelForDisplay = new AddNewPersonDisplayViewModel
+            {
+                Address = model.Address,
+                Email = model.Email,
+                LastName = model.LastName,
+                FirstName = model.FirstName
+            };
+
+            modelForDisplay.TagsForDisplay = tagRepository.GetAll().ToList();
+            return View(modelForDisplay);
         }
     }
 }

@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{B1A3D050-49E3-43DB-ACA2-74D2BB60A725}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FullstackPhoneBook.EndPoints.MVC/Controllers/PeopleController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/PeopleController.cs" Line="66" Column="32" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/People/Add.cshtml" Line="23" Column="109" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Models/AddNewPersonViewModel.cs" Line="26" Column="41" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/Shared/_Layout.cshtml" Line="79" Column="37" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/Shared/_Sidebar.cshtml" Line="40" Column="81" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/PeopleController.cs" Line="85" Column="40" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/People/Add.cshtml" Line="13" Column="37" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Models/AddNewPersonViewModel.cs" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/Shared/_Layout.cshtml" Line="79" Column="98" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/Shared/_Sidebar.cshtml" />
       <File FileName="FullstackPhoneBook.EndPoints.MVC/Startup.cs" Line="36" Column="1" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/HomeController.cs" Line="29" Column="39" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/People/Index.cshtml" Line="4" Column="1" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/appsettings.json" Line="5" Column="77" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/HomeController.cs" Line="30" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FullstackPhoneBook" expanded="True">
+          <Node name="FullstackPhoneBook" expanded="True" selected="True">
             <Node name="01.Domain" expanded="True">
               <Node name="FullstackPhoneBook.Domain.Core" expanded="True">
                 <Node name="People" expanded="True" />
@@ -21,14 +21,13 @@
             </Node>
             <Node name="03.Infrastructures" expanded="True">
               <Node name="FullstackPhoneBook.Infrastructures.DataAccess" expanded="True">
+                <Node name="Migrations" expanded="True" />
                 <Node name="People" expanded="True" />
               </Node>
             </Node>
             <Node name="04.EndPoints" expanded="True">
               <Node name="FullstackPhoneBook.EndPoints.MVC" expanded="True">
-                <Node name="Controllers" expanded="True">
-                  <Node name="PeopleController.cs" selected="True" />
-                </Node>
+                <Node name="Controllers" expanded="True" />
                 <Node name="Models" expanded="True" />
                 <Node name="Views" expanded="True">
                   <Node name="Home" expanded="True" />

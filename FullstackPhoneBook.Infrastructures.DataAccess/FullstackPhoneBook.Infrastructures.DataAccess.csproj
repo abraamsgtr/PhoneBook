@@ -20,4 +20,9 @@
     <Folder Include="Phones\" />
     <Folder Include="Tags\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20190815021720_Init.cs" />
+    <Compile Remove="Migrations\PhoneBookContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\20190815021720_Init.Designer.cs" />
+  </ItemGroup>
 </Project>
