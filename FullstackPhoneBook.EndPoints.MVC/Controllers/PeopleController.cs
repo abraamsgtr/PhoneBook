@@ -24,11 +24,7 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
             this.tagRepository = tagRepository;
             this.personRepository = personRepository;
         }
-        // GET: /<controller>/
-        public IActionResult Index()
-        {
-            return View();
-        }
+        
 
         public IActionResult Add()
         {
@@ -83,6 +79,13 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
 
             modelForDisplay.TagsForDisplay = tagRepository.GetAll().ToList();
             return View(modelForDisplay);
+        }
+
+        // GET: /<controller>/
+        public IActionResult Index()
+        {
+            var people = personRepository.GetAll().ToList();
+            return View(people);
         }
     }
 }

@@ -34,3 +34,5 @@
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LogoutModal.g.cshtml.cs
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Topbar.g.cshtml.cs
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/People/Index.g.cshtml.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Tag/Add.g.cshtml.cs
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.EndPoints.MVC/obj/Debug/netcoreapp2.2/Razor/Views/Tag/Index.g.cshtml.cs

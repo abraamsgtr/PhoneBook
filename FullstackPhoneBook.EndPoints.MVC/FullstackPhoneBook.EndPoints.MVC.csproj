@@ -26,6 +26,7 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="Views\People\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Tag\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\vendor\fontawesome-free\js\brands.js" />
@@ -347,6 +348,8 @@
     <Content Remove="wwwroot\vendor\fontawesome-free\svgs\solid\bell.svg" />
     <Content Remove="Views\Shared\_ScrolltoTop.cshtml" />
     <Content Remove="Views\Shared\_Sidebar.cshtml" />
+    <Content Remove="wwwroot\vendor\jquery-validation\dist\additional-methods.min.js" />
+    <Content Remove="wwwroot\vendor\jquery-validation\dist\jquery.validate.min.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FullstackPhoneBook.Domain.Core\FullstackPhoneBook.Core.Contracts\FullstackPhoneBook.Core.Contracts.csproj" />

@@ -37,7 +37,22 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header" style="font-weight:bold;color:purple;">Person Actions:</h6>
                 <a class="collapse-item" asp-controller="People" asp-action="Add">Add</a>
-                <a class="collapse-item" asp-controller="People" asp-action="Add">List</a>
+                <a class="collapse-item" asp-controller="People" asp-action="Index">List</a>
+            </div>
+        </div>
+    </li>
+
+    <!-- Add Tag Form-->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTo" aria-expanded="true" aria-controls="collapseTwo">
+            <i class="fas fa-fw fa-cog"></i>
+            <span>Tags</span>
+        </a>
+        <div id="collapseTo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header" style="font-weight:bold;color:purple;">Tags Action:</h6>
+                <a class="collapse-item" asp-controller="Tag" asp-action="Add">Add</a>
+                <a class="collapse-item" asp-controller="Tag" asp-action="Index">List</a>
             </div>
         </div>
     </li>

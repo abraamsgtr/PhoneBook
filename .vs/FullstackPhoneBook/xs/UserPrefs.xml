@@ -1,14 +1,8 @@
 ﻿<Properties StartupConfiguration="{B1A3D050-49E3-43DB-ACA2-74D2BB60A725}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/PeopleController.cs" Line="85" Column="40" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/People/Add.cshtml" Line="13" Column="37" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Models/AddNewPersonViewModel.cs" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/Shared/_Layout.cshtml" Line="79" Column="98" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/Shared/_Sidebar.cshtml" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Startup.cs" Line="36" Column="1" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/appsettings.json" Line="5" Column="77" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/HomeController.cs" Line="30" Column="18" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/PeopleController.cs" Line="87" Column="13" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/TagController.cs" Line="73" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +11,11 @@
             <Node name="01.Domain" expanded="True">
               <Node name="FullstackPhoneBook.Domain.Core" expanded="True">
                 <Node name="People" expanded="True" />
+                <Node name="Tags" expanded="True" />
               </Node>
             </Node>
             <Node name="03.Infrastructures" expanded="True">
               <Node name="FullstackPhoneBook.Infrastructures.DataAccess" expanded="True">
-                <Node name="Migrations" expanded="True" />
                 <Node name="People" expanded="True" />
               </Node>
             </Node>
@@ -33,11 +27,15 @@
                   <Node name="Home" expanded="True" />
                   <Node name="People" expanded="True" />
                   <Node name="Shared" expanded="True" />
+                  <Node name="Tag" expanded="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

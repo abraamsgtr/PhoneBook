@@ -1,3 +1,124 @@
-﻿@page
+﻿@model List<FullstackPhoneBook.Domain.Core.People.Person>
 @{
+    ViewData["Title"] = "Index";
 }
+
+
+
+<style>
+    .profile-userpic img {
+        float: none;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        border-radius: 50% !important;
+    }
+
+    .profile-header-img {
+        padding: 54px;
+    }
+
+        .profile-header-img > img.img-circle {
+            width: 120px;
+            height: 120px;
+            border: 2px solid blue;
+            border-radius: 10;
+        }
+</style>
+
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-bordered table-striped" id="thetable">
+        <tr class="table-dark" style="color:blue;">
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Profile Image</th>
+            <th>Detail</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            var id = item.id;
+            <tr>
+                <td>@item.id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Email</td>
+                <td>
+                    @*@{
+                            if (@item.Image != null)
+                            {
+                                byte[] bytes = Convert.FromBase64String(item.Image);
+                                Image image;
+
+                                using (MemoryStream ms = new MemoryStream(bytes))
+                                {
+                                    image = Image.FromStream(ms);
+                                }
+                                <img src="@image" />
+                            }
+                        }*@
+
+
+
+                    @if (@item.Image != null)
+                    {
+                        <a data-toggle="modal" data-target="#myModal" class="d-flex" id="imageA">
+
+                            @*<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Mode</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body d-flex">
+                                            <img src="data:image/png;base64, @item.Image" class="btn-md align-items-center" alt="//placehold.it/100x100" style="border-radius:50%; height:100px; width:100px;" />
+                                        </div>
+                                        <div class="modal-footer d-flex">
+                                            <button type="button" class="btn btn-secondary align-items-center" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>*@
+                            <img src="data:image/png;base64, @item.Image" class="btn-md" alt="//placehold.it/100x100" style="border-radius: 50%; height: 100px; width: 100px;" />
+                        </a>
+                    }
+                    else
+                    {
+                        <img src="//placehold.it/100x100" class="btn-md" alt="" style="border-radius: 50%; height: 100px; width: 100px;" />
+
+                    }
+
+
+
+
+
+
+                    @*<div class="profile-userpic">
+                            <img src="data:image/png;base64, @item.Image" class="img-circle" alt="" />
+                        </div>*@
+
+                </td>
+                <td><a asp-controller="People" asp-action="Detail" asp-route-id="@item.id" class="btn btn-primary">Detail</a></td>
+            </tr>
+        }
+    </table>
+}
+
+<script src="~/vendor/jquery/jquery.min.js"></script>
+
+<script>
+    @*$('#thetable').find('tr').click(function () {
+        var row = $(this).find('td:first').text();
+        $(h5).text("hello");
+    });*@
+</script>
+
+<script></script>
