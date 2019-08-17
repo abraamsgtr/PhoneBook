@@ -43,6 +43,10 @@ namespace FullstackPhoneBook.Infrastructures.DataAccess.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(21);
+
                     b.HasKey("id");
 
                     b.ToTable("People");

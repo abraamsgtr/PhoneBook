@@ -16,6 +16,8 @@ namespace FullstackPhoneBook.Domain.Core.People
         [NotMapped]
         public List<string> PTags { get; set; }
 
+        public string PhoneNumber { get; set; }
+
 
         public List<Phone> Phones { get; set; }
 

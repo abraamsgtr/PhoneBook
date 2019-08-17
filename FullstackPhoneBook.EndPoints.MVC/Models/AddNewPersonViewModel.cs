@@ -27,6 +27,11 @@ namespace FullstackPhoneBook.EndPoints.MVC.Models
 
         public string Address { get; set; }
 
+        [Required]
+        [StringLength(maximumLength: 21, MinimumLength = 10)]
+
+        public string PhoneNumber { get; set; }
+
         public IFormFile Image { get; set; }
     }
 

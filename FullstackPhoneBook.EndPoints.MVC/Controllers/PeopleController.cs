@@ -49,6 +49,7 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
                     LastName = model.LastName,
                     Email = model.Email,
                     Address = model.Address,
+                    PhoneNumber = model.PhoneNumber,
                     Tags = new List<PersonTag>(model.SelectedTag.Select(c => new PersonTag
                     {
                         TagId = c
@@ -76,7 +77,7 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
                 Address = model.Address,
                 Email = model.Email,
                 LastName = model.LastName,
-                FirstName = model.FirstName
+                FirstName = model.FirstName,
             };
 
             modelForDisplay.TagsForDisplay = tagRepository.GetAll().ToList();

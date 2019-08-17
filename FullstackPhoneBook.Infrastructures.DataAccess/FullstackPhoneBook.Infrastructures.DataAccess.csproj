@@ -30,5 +30,9 @@
     <Compile Remove="Migrations\20190817053645_Init.Designer.cs" />
     <Compile Remove="Migrations\20190817071758_RepositoriesUpdate.cs" />
     <Compile Remove="Migrations\20190817071758_RepositoriesUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20190817072053_Init.cs" />
+    <Compile Remove="Migrations\20190817072053_Init.Designer.cs" />
+    <Compile Remove="Migrations\20190817090055_AddedPhone2Person.Designer.cs" />
+    <Compile Remove="Migrations\20190817090055_AddedPhone2Person.cs" />
   </ItemGroup>
 </Project>

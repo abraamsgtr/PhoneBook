@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FullstackPhoneBook.Infrastructures.DataAccess.Migrations
 {
     [DbContext(typeof(PhoneBookContext))]
-    [Migration("20190817053645_Init")]
+    [Migration("20190817090606_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,6 +44,10 @@ namespace FullstackPhoneBook.Infrastructures.DataAccess.Migrations
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasMaxLength(50);
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasMaxLength(21);
 
                     b.HasKey("id");
 

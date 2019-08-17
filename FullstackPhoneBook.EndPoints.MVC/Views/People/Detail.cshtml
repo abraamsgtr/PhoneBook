@@ -36,6 +36,7 @@
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
+            <th>PhoneNumber</th>
             <th>Address</th>
             <th>Profile Image</th>
             <th>Tags</th>
@@ -45,6 +46,7 @@
             <td>@Model.FirstName</td>
             <td>@Model.LastName</td>
             <td>@Model.Email</td>
+            <td>@Model.PhoneNumber</td>
             <td>@Model.Address</td>
             <td>
                 @if (@Model.Image != null)
@@ -81,7 +83,7 @@
             <td>
                 @if (@Model.PTags != null && @Model.PTags.Count > 0)
                 {
-
+                    
                     <select class="form-control select2" multiple>
                         @foreach (var item in Model.PTags)
                         {

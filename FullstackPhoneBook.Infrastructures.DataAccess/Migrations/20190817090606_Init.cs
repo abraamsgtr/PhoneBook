@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FullstackPhoneBook.Infrastructures.DataAccess.Migrations
 {
-    public partial class RepositoriesUpdate : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,7 +17,8 @@ namespace FullstackPhoneBook.Infrastructures.DataAccess.Migrations
                     LastName = table.Column<string>(maxLength: 50, nullable: false),
                     Email = table.Column<string>(maxLength: 256, nullable: false),
                     Address = table.Column<string>(maxLength: 500, nullable: true),
-                    Image = table.Column<string>(unicode: false, nullable: true)
+                    Image = table.Column<string>(unicode: false, nullable: true),
+                    PhoneNumber = table.Column<string>(maxLength: 21, nullable: false)
                 },
                 constraints: table =>
                 {
