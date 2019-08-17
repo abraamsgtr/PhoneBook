@@ -37,6 +37,7 @@ namespace FullstackPhoneBook.EndPoints.MVC
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped<ITagRepository, TagRepository>();
             services.AddScoped<IPhoneRepository, PhoneRepository>();
+            services.AddScoped<IPersonTagRepository, PersonTagRepository>();
 
         }
 

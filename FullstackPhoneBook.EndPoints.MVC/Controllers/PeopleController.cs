@@ -18,11 +18,13 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
 
         private readonly ITagRepository tagRepository;
         private readonly IPersonRepository personRepository;
+        private readonly IPersonTagRepository personTagRepository;
 
-        public PeopleController(ITagRepository tagRepository, IPersonRepository personRepository)
+        public PeopleController(ITagRepository tagRepository, IPersonRepository personRepository, IPersonTagRepository personTagRepository)
         {
             this.tagRepository = tagRepository;
             this.personRepository = personRepository;
+            this.personTagRepository = personTagRepository;
         }
         
 
@@ -86,6 +88,51 @@ namespace FullstackPhoneBook.EndPoints.MVC.Controllers
         {
             var people = personRepository.GetAll().ToList();
             return View(people);
+        }
+
+        [Route("People/{id:int}")]
+
+        public async Task<IActionResult> Detail(int id)
+        {
+            var person = personRepository.Get(id);
+
+            var tags = personTagRepository.GetAll().Where(c=>c.PersonId == id).ToList();
+
+            List<string> tagsTitle = new List<string>();
+
+            tagsTitle.Clear();
+
+            //var tags = tagRepository.Get(id).Title.ToList();
+
+            //person.PTags = tags.ToList();
+
+            foreach (var item in tags)
+            {
+                tagsTitle.Add(tagRepository.Get(item.TagId).Title.ToString());
+                Console.WriteLine($"t = {item.TagId}");
+            }
+
+            if (tagsTitle != null && tagsTitle.Count > 0)
+            {
+                foreach (var title in tagsTitle)
+                {
+                    Console.WriteLine($"TagsTitle = {title}");
+                }
+
+                person.PTags = tagsTitle;
+            }
+            
+            //Console.WriteLine($"Personn = {person.Tags}");
+
+            return View(person);
+        }
+
+        
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            personRepository.Delete(id);
+            return RedirectToAction("Index");
         }
     }
 }

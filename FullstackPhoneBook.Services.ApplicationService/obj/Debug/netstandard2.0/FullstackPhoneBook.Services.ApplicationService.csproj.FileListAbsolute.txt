@@ -10,3 +10,5 @@
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.csproj.CopyComplete
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.dll
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/obj/Debug/netstandard2.0/FullstackPhoneBook.Services.ApplicationService.pdb
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/bin/Debug/netstandard2.0/System.ComponentModel.Annotations.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Services.ApplicationService/bin/Debug/netstandard2.0/System.ComponentModel.Annotations.xml

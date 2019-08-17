@@ -47,4 +47,9 @@
     <Compile Remove="FullstackPhoneBook.Core.Contracts\Common\IApplicationService.cs" />
     <Compile Remove="FullstackPhoneBook.Core.Contracts\obj\Debug\netstandard2.0\FullstackPhoneBook.Domain.Contracts.AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\system.componentmodel.annotations\4.5.0\ref\netstandard2.0\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

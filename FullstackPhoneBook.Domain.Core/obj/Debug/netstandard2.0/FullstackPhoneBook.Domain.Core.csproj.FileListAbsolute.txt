@@ -7,3 +7,6 @@
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/bin/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.pdb
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.dll
 /Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.pdb
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/bin/Debug/netstandard2.0/System.ComponentModel.Annotations.dll
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/bin/Debug/netstandard2.0/System.ComponentModel.Annotations.xml
+/Users/mohammad141/projects/FullstackPhoneBook/FullstackPhoneBook.Domain.Core/obj/Debug/netstandard2.0/FullstackPhoneBook.Domain.Core.csproj.CopyComplete

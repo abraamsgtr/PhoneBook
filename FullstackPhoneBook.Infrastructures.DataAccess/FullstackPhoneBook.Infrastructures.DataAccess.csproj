@@ -24,5 +24,11 @@
     <Compile Remove="Migrations\20190815021720_Init.cs" />
     <Compile Remove="Migrations\PhoneBookContextModelSnapshot.cs" />
     <Compile Remove="Migrations\20190815021720_Init.Designer.cs" />
+    <Compile Remove="Migrations\20190816061401_Init.Designer.cs" />
+    <Compile Remove="Migrations\20190816061401_Init.cs" />
+    <Compile Remove="Migrations\20190817053645_Init.cs" />
+    <Compile Remove="Migrations\20190817053645_Init.Designer.cs" />
+    <Compile Remove="Migrations\20190817071758_RepositoriesUpdate.cs" />
+    <Compile Remove="Migrations\20190817071758_RepositoriesUpdate.Designer.cs" />
   </ItemGroup>
 </Project>

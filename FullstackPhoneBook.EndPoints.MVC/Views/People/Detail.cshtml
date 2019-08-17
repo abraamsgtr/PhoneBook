@@ -1,0 +1,110 @@
+﻿@model FullstackPhoneBook.Domain.Core.People.Person
+@{
+    ViewData["Title"] = "Detail";
+}
+
+
+
+<style>
+    .profile-userpic img {
+        float: none;
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        border-radius: 50% !important;
+    }
+
+    .profile-header-img {
+        padding: 54px;
+    }
+
+        .profile-header-img > img.img-circle {
+            width: 120px;
+            height: 120px;
+            border: 2px solid blue;
+            border-radius: 10;
+        }
+</style>
+
+
+@if (Model != null)
+{
+    <table class="table table-bordered table-striped" id="thetable">
+        <tr class="table-dark" style="color:blue;">
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Profile Image</th>
+            <th>Tags</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>@Model.FirstName</td>
+            <td>@Model.LastName</td>
+            <td>@Model.Email</td>
+            <td>@Model.Address</td>
+            <td>
+                @if (@Model.Image != null)
+                    {
+                        <a data-toggle="modal" data-target="#myModal" class="d-flex" id="imageA">
+
+                            @*<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Mode</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body d-flex">
+                                                <img src="data:image/png;base64, @item.Image" class="btn-md align-items-center" alt="//placehold.it/100x100" style="border-radius:50%; height:100px; width:100px;" />
+                                            </div>
+                                            <div class="modal-footer d-flex">
+                                                <button type="button" class="btn btn-secondary align-items-center" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>*@
+                            <img src="data:image/png;base64, @Model.Image" class="btn-md" alt="//placehold.it/100x100" style="border-radius: 50%; height: 100px; width: 100px;" />
+                        </a>
+                    }
+                    else
+                    {
+                        <img src="//placehold.it/100x100" class="btn-md" alt="" style="border-radius: 50%; height: 100px; width: 100px;" />
+
+                    }
+            </td>
+            <td>
+                @if (@Model.PTags != null && @Model.PTags.Count > 0)
+                {
+
+                    <select class="form-control select2" multiple>
+                        @foreach (var item in Model.PTags)
+                        {
+                            <option>@item.ToString()</option>
+                        }
+                    </select>
+                    
+                }
+            </td>
+            <td>
+                <a asp-controller="People" asp-action="Delete" asp-route-id="@Model.id" class="btn btn-danger">Delete</a
+            </td>
+        </tr>
+    </table>
+}
+
+<script src="~/vendor/jquery/jquery.min.js"></script>
+
+<script>
+    @*$('#thetable').find('tr').click(function () {
+        var row = $(this).find('td:first').text();
+        $(h5).text("hello");
+    });*@
+</script>
+
+<script></script>

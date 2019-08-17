@@ -1,22 +1,37 @@
 ﻿<Properties StartupConfiguration="{B1A3D050-49E3-43DB-ACA2-74D2BB60A725}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/PeopleController.cs" Line="87" Column="13" />
-      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/TagController.cs" Line="73" Column="10" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/PeopleController.cs" Line="130" Column="9" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Models/PersonDetailViewModel.cs" Line="17" Column="36" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/People/Detail.cshtml" Line="97" Column="14" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Views/Tag/Index.cshtml" Line="46" Column="121" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Controllers/TagController.cs" Line="71" Column="13" />
+      <File FileName="FullstackPhoneBook.EndPoints.MVC/Startup.cs" Line="62" Column="70" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FullstackPhoneBook" expanded="True" selected="True">
             <Node name="01.Domain" expanded="True">
+              <Node name="FullstackPhoneBook.Domain.Contracts" expanded="True">
+                <Node name="Common" expanded="True" />
+                <Node name="People" expanded="True" />
+              </Node>
               <Node name="FullstackPhoneBook.Domain.Core" expanded="True">
+                <Node name="FullstackPhoneBook.Domain.Contracts" expanded="True">
+                  <Node name="Common" expanded="True" />
+                  <Node name="People" expanded="True" />
+                </Node>
                 <Node name="People" expanded="True" />
                 <Node name="Tags" expanded="True" />
               </Node>
             </Node>
             <Node name="03.Infrastructures" expanded="True">
               <Node name="FullstackPhoneBook.Infrastructures.DataAccess" expanded="True">
+                <Node name="Common" expanded="True" />
+                <Node name="Migrations" expanded="True" />
                 <Node name="People" expanded="True" />
+                <Node name="Tags" expanded="True" />
               </Node>
             </Node>
             <Node name="04.EndPoints" expanded="True">
@@ -26,16 +41,12 @@
                 <Node name="Views" expanded="True">
                   <Node name="Home" expanded="True" />
                   <Node name="People" expanded="True" />
-                  <Node name="Shared" expanded="True" />
                   <Node name="Tag" expanded="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
